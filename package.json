@@ -1,0 +1,33 @@
+{
+  "name": "hyperframework",
+  "version": "0.0.0",
+  "description": "Fast and light frontend framework, backed by hyperHTML ",
+  "main": "index.js",
+  "repository": "git@github.com:joshgillies/hyperframework.git",
+  "author": "Josh Gillies <github@josh.gl>",
+  "license": "MIT",
+  "keywords": [
+    "dom",
+    "hyper",
+    "html",
+    "template",
+    "component",
+    "fast",
+    "performance",
+    "diff",
+    "hyperhtml",
+    "universal"
+  ],
+  "scripts": {
+    "start": "bankai example --open --uglify=false",
+    "test": "standard"
+  },
+  "devDependencies": {
+    "bankai": "^7.1.1",
+    "standard": "^9.0.2"
+  },
+  "dependencies": {
+    "hypercomponent": "^2.0.1",
+    "viperhtml": "^0.5.4"
+  }
+}
